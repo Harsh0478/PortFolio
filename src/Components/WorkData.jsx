@@ -7,6 +7,7 @@ import CoverChatApp from "../assets/Cover5.png";
 import CodeProof from "../assets/CodeProof.png";
 
 export const projectsData = [
+  // 1. CodeProof
   {
     id: 1,
     image: CodeProof,
@@ -28,26 +29,54 @@ export const projectsData = [
     category: "WEB",
     link: "https://github.com/Harsh0478/CodeProof",
   },
+
+  // 2. SpendSense
   {
     id: 2,
-    image: Cover1,
-    title: "BookWorm – Book Recommendation App",
+    image: Cover2, // Temporary image; replace with SpendSense screenshot later
+    title: "SpendSense – AI-Powered Personal Expense Tracker",
     description:
-      "A book recommendation application designed to help users discover books based on their interests.",
+      "An AI-powered personal finance application that helps users track expenses, manage budgets, analyze spending patterns, and gain financial insights. Features include AI-based expense categorization, an AI financial assistant, budget reminders, recurring payments, and CSV/PDF transaction imports with duplicate detection.",
+    techStack: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB Atlas",
+      "Google Gemini API",
+      "JWT",
+      "Expo SecureStore",
+    ],
+    category: "APK",
+    link: "",
+  },
+
+  // 3. BookWorm
+  {
+    id: 3,
+    image: Cover1,
+    title: "BookWorm – Book Recommendation Mobile Application",
+    description:
+      "A mobile application that helps users discover and explore books through a recommendation experience. Built with reusable components, structured MongoDB schemas, and efficient pagination for smooth browsing.",
     techStack: [
       "React Native",
       "JavaScript",
-      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
     ],
     category: "APK",
     link: "https://drive.google.com/file/d/1vvUiAw4yUhiwJ9VqttyBizU2huEPXRmn/view?usp=drive_link",
   },
+
+  // 4. Chatty Web
   {
-    id: 3,
+    id: 4,
     image: CoverChatApp,
-    title: "Chatty Web | Real-Time Messaging Web App",
+    title: "Chatty Web – Real-Time Messaging Application",
     description:
-      "A real-time messaging application that allows users to communicate through instant messages.",
+      "A full-stack real-time messaging application that enables users to communicate through instant messaging with a responsive interface and real-time communication powered by Socket.io.",
     techStack: [
       "React.js",
       "Node.js",
@@ -59,47 +88,40 @@ export const projectsData = [
     category: "WEB",
     link: "https://chat-app-mern-xm0z.onrender.com/",
   },
+
+  // 5. Expense Tracker
+  
+
+  // 6. Open Campus
   {
-    id: 4,
-    image: Cover2,
-    title: "Expense Tracker App",
-    description:
-      "An expense tracking application for recording and managing personal income and expenses.",
-    techStack: [
-      "React Native",
-      "JavaScript",
-      "Firebase",
-    ],
-    category: "APK",
-    link: "https://drive.google.com/file/d/1mW4pJ6w7on_jL8Zl5xAeo7-NF20LinEc/view?usp=sharing",
-  },
-  {
-    id: 5,
+    id: 6,
     image: Cover3,
-    title: "Open Campus | College ERP",
+    title: "Open Campus – College ERP Platform",
     description:
-      "A college ERP platform designed to simplify campus activities and provide digital management of college services.",
+      "A digital college ERP platform designed to simplify campus activities and provide centralized management of college services through a user-friendly interface.",
     techStack: [
       "React.js",
       "JavaScript",
       "Firebase",
       "CSS",
     ],
-    category: "APK",
+    category: "WEB",
     link: "https://open-campus.vercel.app/",
   },
+
+  // 7. Simple Calculator
   {
-    id: 6,
+    id: 7,
     image: Cover4,
     title: "Simple Calculator",
     description:
-      "A lightweight calculator web application for performing basic mathematical operations.",
+      "A lightweight and responsive calculator web application that performs basic mathematical operations through a simple and user-friendly interface.",
     techStack: [
       "React.js",
       "JavaScript",
       "CSS",
     ],
-    category: "APK",
+    category: "WEB",
     link: "https://calculator-webapp-blond.vercel.app/",
   },
 ];
