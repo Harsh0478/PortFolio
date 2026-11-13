@@ -49,7 +49,7 @@ export const projectsData = [
       "Expo SecureStore",
     ],
     category: "APK",
-    link: "",
+    link: "https://github.com/Harsh0478/SpendSense.git",
   },
 
   // 3. BookWorm
